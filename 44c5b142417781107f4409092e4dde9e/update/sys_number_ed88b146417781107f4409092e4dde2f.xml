@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_cdltd_don_t_bite_cage_maintenance">x_cdltd_don_t_bite_cage_maintenance</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CAM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-01 19:32:57</sys_created_on>
+        <sys_id>ed88b146417781107f4409092e4dde2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAM</sys_name>
+        <sys_package display_value="(Don't) Bite Me" source="x_cdltd_don_t_bite">44c5b142417781107f4409092e4dde9e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="(Don't) Bite Me">44c5b142417781107f4409092e4dde9e</sys_scope>
+        <sys_update_name>sys_number_ed88b146417781107f4409092e4dde2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-01 19:32:57</sys_updated_on>
+    </sys_number>
+</record_update>

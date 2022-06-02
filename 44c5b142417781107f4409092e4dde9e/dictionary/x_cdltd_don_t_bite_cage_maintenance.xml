@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Cage Maintenance" max_length="40" name="x_cdltd_don_t_bite_cage_maintenance" sizeclass="0" type="collection">
+        <element attributes="omit_sys_original=true" label="New Currency" max_length="20" name="u_currency_1" type="currency"/>
+    </element>
+</database>

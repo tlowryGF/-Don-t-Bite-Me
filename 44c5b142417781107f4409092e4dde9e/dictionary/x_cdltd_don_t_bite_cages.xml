@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cages" max_length="40" name="x_cdltd_don_t_bite_cages" sizeclass="0" type="collection">
+        <element label="Cage Availability" max_length="40" name="cage_availability" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cage Size" mandatory="true" max_length="40" name="cage_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Large" value="large"/>
+                <element inactive_on_update="false" label="Medium" value="medium"/>
+                <element inactive_on_update="false" label="Small" value="small"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cage Type" mandatory="true" max_length="40" name="cage_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Metal" value="metal"/>
+                <element inactive_on_update="false" label="Plexiglass" value="plexiglass"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Capacity" max_length="40" name="capacity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1-2 people" value="1_2"/>
+                <element inactive_on_update="false" label="3-4 people" value="3_4"/>
+                <element inactive_on_update="false" label="5-6 people" value="5_6_people"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

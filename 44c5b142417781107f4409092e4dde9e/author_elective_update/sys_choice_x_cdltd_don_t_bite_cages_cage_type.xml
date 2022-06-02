@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="cage_type" table="x_cdltd_don_t_bite_cages" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>cage_type</element>
+            <name>x_cdltd_don_t_bite_cages</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-01 19:57:12</sys_created_on>
+            <sys_id>381e398a417781107f4409092e4ddea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cage_type</sys_name>
+            <sys_package display_value="(Don't) Bite Me" source="x_cdltd_don_t_bite">44c5b142417781107f4409092e4dde9e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="(Don't) Bite Me">44c5b142417781107f4409092e4dde9e</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_don_t_bite_cages_cage_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-01 19:57:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Metal</label>
+            <language>en</language>
+            <name>x_cdltd_don_t_bite_cages</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-01 19:57:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc1e398a417781107f4409092e4ddea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-01 19:57:12</sys_updated_on>
+            <value>metal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plexiglass</label>
+            <language>en</language>
+            <name>x_cdltd_don_t_bite_cages</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-01 19:57:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>381e398a417781107f4409092e4ddea7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-01 19:57:12</sys_updated_on>
+            <value>plexiglass</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
